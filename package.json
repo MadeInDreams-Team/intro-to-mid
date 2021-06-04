@@ -1,0 +1,36 @@
+{
+  "name": "@madeindreams/intro-to-mid",
+  "version": "1.0.0",
+  "description": "This is an intro to the MID Coding Class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadeInDreams-Team/intro-to-mid.git"
+  },
+  "keywords": [
+    "Eth",
+    "Dev",
+    "Hardhat",
+    "Ethers",
+    "Solidity"
+  ],
+  "author": "Ian Decentralize",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MadeInDreams-Team/intro-to-mid/issues"
+  },
+  "homepage": "https://github.com/MadeInDreams-Team/intro-to-mid#readme",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.2",
+    "@openzeppelin/contracts-upgradeable": "^4.1.0",
+    "@openzeppelin/hardhat-upgrades": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.3.0",
+    "hardhat": "^2.3.0"
+  }
+}
